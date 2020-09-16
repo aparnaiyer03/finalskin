@@ -1,0 +1,427 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="android.example.com.tflitecamerademo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:6:5-65
+11-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:6:22-62
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:7:5-80
+12-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:7:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:8:5-81
+13-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:8:22-78
+14
+15    <uses-feature android:name="android.hardware.camera" />
+15-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:10:5-60
+15-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:10:19-57
+16    <uses-feature android:name="android.hardware.camera.autofocus" />
+16-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:11:5-70
+16-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:11:19-67
+17
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->[com.firebaseui:firebase-ui-database:4.3.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\4c869656a5d985af0e133b4d416ee1a6\jetified-firebase-ui-database-4.3.2\AndroidManifest.xml:11:5-67
+18-->[com.firebaseui:firebase-ui-database:4.3.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\4c869656a5d985af0e133b4d416ee1a6\jetified-firebase-ui-database-4.3.2\AndroidManifest.xml:11:22-64
+19    <!--
+20         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+21         Google Maps Android API v2, but you must specify either coarse or fine
+22         location permissions for the 'MyLocation' functionality.
+23    -->
+24    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+24-->[:MapsDemo] C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\MapsDemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-79
+24-->[:MapsDemo] C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\MapsDemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:22-76
+25    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+25-->[:MapsDemo] C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\MapsDemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-81
+25-->[:MapsDemo] C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\MapsDemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:22-78
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->[:MapsDemo] C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\MapsDemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-79
+26-->[:MapsDemo] C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\MapsDemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:22-76
+27    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+27-->[:MapsDemo] C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\MapsDemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:5-98
+27-->[:MapsDemo] C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\MapsDemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:22-95
+28    <uses-permission android:name="android.permission.WAKE_LOCK" />
+28-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:25:5-68
+28-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:25:22-65
+29    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+29-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:26:5-110
+29-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:26:22-107
+30    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+30-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\916aaac92064a46126f87619c7c507fb\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+30-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\916aaac92064a46126f87619c7c507fb\firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+31
+32    <uses-feature
+32-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\deb40e6ea3773bcf263ddc7b7e11a4bd\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+33        android:glEsVersion="0x00020000"
+33-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\deb40e6ea3773bcf263ddc7b7e11a4bd\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+34        android:required="true" />
+34-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\deb40e6ea3773bcf263ddc7b7e11a4bd\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+35
+36    <application
+36-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:13:5-92:19
+37        android:allowBackup="true"
+37-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:14:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.1.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\cdf12fde5467c14e3792a03af6b49cd1\core-1.1.0\AndroidManifest.xml:24:18-86
+39        android:debuggable="true"
+40        android:icon="@drawable/ic_launcher"
+40-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:15:9-45
+41        android:label="@string/app_name"
+41-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:16:9-41
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->[:MapsDemo] C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\MapsDemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-54
+43        android:supportsRtl="true"
+43-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:17:9-35
+44        android:testOnly="true"
+45        android:theme="@style/MaterialTheme" >
+45-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:18:9-45
+46        <activity
+46-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:20:9-21:68
+47            android:name="com.example.android.tflitecamerademo.healthy"
+47-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:20:19-42
+48            android:theme="@style/Base.Theme.AppCompat" />
+48-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:21:13-56
+49        <activity
+49-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:22:9-23:58
+50            android:name="com.example.android.tflitecamerademo.pigmentation"
+50-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:22:19-47
+51            android:theme="@style/Base.Theme.AppCompat" />
+51-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:23:13-56
+52        <activity
+52-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:24:9-25:58
+53            android:name="com.example.android.tflitecamerademo.rosacea"
+53-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:24:19-42
+54            android:theme="@style/Base.Theme.AppCompat" />
+54-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:25:13-56
+55        <activity
+55-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:26:9-27:58
+56            android:name="com.example.android.tflitecamerademo.acne"
+56-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:26:19-39
+57            android:theme="@style/Base.Theme.AppCompat" />
+57-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:27:13-56
+58        <activity
+58-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:28:9-30:59
+59            android:name="com.example.android.tflitecamerademo.LoginActivity"
+59-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:29:13-42
+60            android:theme="@style/Base.Theme.AppCompat" />
+60-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:30:13-56
+61        <activity
+61-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:31:9-33:59
+62            android:name="com.example.android.tflitecamerademo.SettingsActivity"
+62-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:32:13-45
+63            android:theme="@style/Base.Theme.AppCompat" />
+63-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:33:13-56
+64        <activity
+64-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:34:9-36:59
+65            android:name="com.example.android.tflitecamerademo.SearchProductsActivity"
+65-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:35:13-51
+66            android:theme="@style/Base.Theme.AppCompat" />
+66-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:36:13-56
+67        <activity
+67-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:37:9-39:59
+68            android:name="com.example.android.tflitecamerademo.RegisterActivity"
+68-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:38:13-45
+69            android:theme="@style/Base.Theme.AppCompat" />
+69-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:39:13-56
+70        <activity
+70-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:40:9-41:58
+71            android:name="com.example.android.tflitecamerademo.ProductDetailsActivity"
+71-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:40:19-57
+72            android:theme="@style/Base.Theme.AppCompat" />
+72-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:41:13-56
+73        <activity
+73-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:42:9-44:59
+74            android:name="com.example.android.tflitecamerademo.MainActivity"
+74-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:43:13-41
+75            android:theme="@style/Base.Theme.AppCompat" />
+75-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:44:13-56
+76        <activity
+76-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:45:9-48:60
+77            android:name="com.example.android.tflitecamerademo.HomeActivity"
+77-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:46:13-41
+78            android:label="@string/title_activity_home"
+78-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:47:13-56
+79            android:theme="@style/AppTheme1.NoActionBar" />
+79-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:48:13-57
+80        <activity
+80-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:49:9-50:59
+81            android:name="com.example.android.tflitecamerademo.ConfirmFinalOrderActivity"
+81-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:49:19-60
+82            android:theme="@style/AppTheme1.NoActionBar" />
+82-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:50:13-57
+83        <activity
+83-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:51:9-53:59
+84            android:name="com.example.android.tflitecamerademo.AdminUserProductsActivity"
+84-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:52:13-54
+85            android:theme="@style/Base.Theme.AppCompat" />
+85-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:53:13-56
+86        <activity
+86-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:54:9-56:59
+87            android:name="com.example.android.tflitecamerademo.CartActivity"
+87-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:55:13-41
+88            android:theme="@style/Base.Theme.AppCompat" />
+88-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:56:13-56
+89        <activity
+89-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:57:9-59:59
+90            android:name="com.example.android.tflitecamerademo.AdminNewOrdersActivity"
+90-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:58:13-51
+91            android:theme="@style/Base.Theme.AppCompat" />
+91-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:59:13-56
+92        <activity
+92-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:60:9-62:59
+93            android:name="com.example.android.tflitecamerademo.AdminCategoryActivity"
+93-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:61:13-50
+94            android:theme="@style/Base.Theme.AppCompat" />
+94-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:62:13-56
+95        <activity
+95-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:63:9-65:59
+96            android:name="com.example.android.tflitecamerademo.AdminAddNewProductActivity"
+96-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:64:13-55
+97            android:theme="@style/Base.Theme.AppCompat" />
+97-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:65:13-56
+98        <activity
+98-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:66:9-74:20
+99            android:name="com.example.android.tflitecamerademo.CameraActivity"
+99-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:67:13-43
+100            android:label="@string/app_name" >
+100-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:68:13-45
+101            <intent-filter>
+101-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:69:13-73:29
+102                <action android:name="android.intent.action.MAIN" />
+102-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:70:17-69
+102-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:70:25-66
+103
+104                <category android:name="android.intent.category.LAUNCHER" />
+104-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:72:17-77
+104-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:72:27-74
+105            </intent-filter>
+106        </activity>
+107        <activity
+107-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:75:9-84:20
+108            android:name="com.example.android.tflitecamerademo.demo"
+108-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:76:13-33
+109            android:label="@string/app_name"
+109-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:77:13-45
+110            android:parentActivityName="com.example.android.tflitecamerademo.demo" >
+110-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:78:13-47
+111            <intent-filter>
+111-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:79:13-83:29
+112                <action android:name="com.example.android.tflitecamerademo.demo" />
+112-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:80:17-84
+112-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:80:25-81
+113
+114                <category android:name="android.intent.category.DEFAULT" />
+114-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:82:17-76
+114-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:82:27-73
+115            </intent-filter>
+116        </activity>
+117        <activity
+117-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:85:9-88:15
+118            android:name="com.example.android.tflitecamerademo.demo2"
+118-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:86:13-34
+119            android:label="Demo2" />
+119-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:87:13-34
+120        <activity
+120-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:89:9-91:59
+121            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+121-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:90:13-76
+122            android:theme="@style/Base.Theme.AppCompat" />
+122-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:91:13-56
+123        <activity
+123-->[:MapsDemo] C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\MapsDemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:9-36:20
+124            android:name="com.example.mapsdemo.Firstscreen"
+124-->[:MapsDemo] C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\MapsDemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-60
+125            android:parentActivityName="com.example.mapsdemo.Firstscreen" >
+125-->[:MapsDemo] C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\MapsDemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-74
+126            <intent-filter>
+126-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:69:13-73:29
+127                <action android:name="android.intent.action.MAIN" />
+127-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:70:17-69
+127-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:70:25-66
+128
+129                <category android:name="android.intent.category.LAUNCHER" />
+129-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:72:17-77
+129-->C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\app\src\main\AndroidManifest.xml:72:27-74
+130            </intent-filter>
+131        </activity>
+132        <!--
+133             The API key for Google Maps-based APIs is defined as a string resource.
+134             (See the file "res/values/google_maps_api.xml").
+135             Note that the API key is linked to the encryption key used to sign the APK.
+136             You need a different API key for each encryption key, including the release key that is used to
+137             sign the APK for publishing.
+138             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+139        -->
+140        <meta-data
+140-->[:MapsDemo] C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\MapsDemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:9-47:55
+141            android:name="com.google.android.geo.API_KEY"
+141-->[:MapsDemo] C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\MapsDemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-58
+142            android:value="@string/google_maps_key" />
+142-->[:MapsDemo] C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\MapsDemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-52
+143
+144        <activity
+144-->[:MapsDemo] C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\MapsDemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:9-52:20
+145            android:name="com.example.mapsdemo.MapsActivity"
+145-->[:MapsDemo] C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\MapsDemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-61
+146            android:label="@string/title_activity_maps" >
+146-->[:MapsDemo] C:\Users\hp\Desktop\folders\PROJECT\DO NOT TOUCH\tflite completed\tflite without maps\tflite\MapsDemo\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:13-56
+147        </activity>
+148
+149        <service
+149-->[com.google.firebase:firebase-database:19.2.1] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\479ea968ee13fa1991fcaf4144bc2637\firebase-database-19.2.1\AndroidManifest.xml:29:9-35:19
+150            android:name="com.google.firebase.components.ComponentDiscoveryService"
+150-->[com.google.firebase:firebase-database:19.2.1] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\479ea968ee13fa1991fcaf4144bc2637\firebase-database-19.2.1\AndroidManifest.xml:30:13-84
+151            android:directBootAware="true"
+151-->[com.google.firebase:firebase-common:19.3.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\e08597cadbcdded6717e2adb68c5e913\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+152            android:exported="false" >
+152-->[com.google.firebase:firebase-database:19.2.1] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\479ea968ee13fa1991fcaf4144bc2637\firebase-database-19.2.1\AndroidManifest.xml:31:13-37
+153            <meta-data
+153-->[com.google.firebase:firebase-database:19.2.1] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\479ea968ee13fa1991fcaf4144bc2637\firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
+154                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+154-->[com.google.firebase:firebase-database:19.2.1] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\479ea968ee13fa1991fcaf4144bc2637\firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-database:19.2.1] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\479ea968ee13fa1991fcaf4144bc2637\firebase-database-19.2.1\AndroidManifest.xml:34:17-82
+156            <meta-data
+156-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\10b4cfc1617594e3a7e6795221495c0a\firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+157                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+157-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\10b4cfc1617594e3a7e6795221495c0a\firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+158                android:value="com.google.firebase.components.ComponentRegistrar" />
+158-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\10b4cfc1617594e3a7e6795221495c0a\firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+159            <meta-data
+159-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\61555cf6ec7cf5da22406439acca54d6\play-services-measurement-api-17.2.2\AndroidManifest.xml:30:13-32:85
+160                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+160-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\61555cf6ec7cf5da22406439acca54d6\play-services-measurement-api-17.2.2\AndroidManifest.xml:31:17-139
+161                android:value="com.google.firebase.components.ComponentRegistrar" />
+161-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\61555cf6ec7cf5da22406439acca54d6\play-services-measurement-api-17.2.2\AndroidManifest.xml:32:17-82
+162            <meta-data
+162-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\916aaac92064a46126f87619c7c507fb\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+163                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+163-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\916aaac92064a46126f87619c7c507fb\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+164                android:value="com.google.firebase.components.ComponentRegistrar" />
+164-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\916aaac92064a46126f87619c7c507fb\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+165        </service>
+166
+167        <provider
+167-->[com.squareup.picasso:picasso:2.71828] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\b6a6fa1adf3e67be3dfbc0d76da32222\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+168            android:name="com.squareup.picasso.PicassoProvider"
+168-->[com.squareup.picasso:picasso:2.71828] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\b6a6fa1adf3e67be3dfbc0d76da32222\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+169            android:authorities="android.example.com.tflitecamerademo.com.squareup.picasso"
+169-->[com.squareup.picasso:picasso:2.71828] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\b6a6fa1adf3e67be3dfbc0d76da32222\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+170            android:exported="false" />
+170-->[com.squareup.picasso:picasso:2.71828] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\b6a6fa1adf3e67be3dfbc0d76da32222\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+171
+172        <receiver
+172-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:29:9-33:20
+173            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+173-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:30:13-85
+174            android:enabled="true"
+174-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:31:13-35
+175            android:exported="false" >
+175-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:32:13-37
+176        </receiver>
+177        <receiver
+177-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:34:9-42:20
+178            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+178-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:35:13-100
+179            android:enabled="true"
+179-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:36:13-35
+180            android:exported="true"
+180-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:37:13-36
+181            android:permission="android.permission.INSTALL_PACKAGES" >
+181-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:38:13-69
+182            <intent-filter>
+182-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:39:13-41:29
+183                <action android:name="com.android.vending.INSTALL_REFERRER" />
+183-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:40:17-79
+183-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:40:25-76
+184            </intent-filter>
+185        </receiver>
+186
+187        <service
+187-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:44:9-47:40
+188            android:name="com.google.android.gms.measurement.AppMeasurementService"
+188-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:45:13-84
+189            android:enabled="true"
+189-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:46:13-35
+190            android:exported="false" />
+190-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:47:13-37
+191        <service
+191-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:48:9-52:72
+192            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+192-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:49:13-87
+193            android:enabled="true"
+193-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:50:13-35
+194            android:exported="false"
+194-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:51:13-37
+195            android:permission="android.permission.BIND_JOB_SERVICE" />
+195-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6862d39585898c5b3205f3e492da5ee5\play-services-measurement-17.2.2\AndroidManifest.xml:52:13-69
+196
+197        <receiver
+197-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\916aaac92064a46126f87619c7c507fb\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+198            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+198-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\916aaac92064a46126f87619c7c507fb\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+199            android:exported="true"
+199-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\916aaac92064a46126f87619c7c507fb\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+200            android:permission="com.google.android.c2dm.permission.SEND" >
+200-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\916aaac92064a46126f87619c7c507fb\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+201            <intent-filter>
+201-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\916aaac92064a46126f87619c7c507fb\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+202                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+202-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\916aaac92064a46126f87619c7c507fb\firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+202-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\916aaac92064a46126f87619c7c507fb\firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+203            </intent-filter>
+204        </receiver> <!-- Needs to be explicitly declared on P+ -->
+205        <uses-library
+205-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\deb40e6ea3773bcf263ddc7b7e11a4bd\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+206            android:name="org.apache.http.legacy"
+206-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\deb40e6ea3773bcf263ddc7b7e11a4bd\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+207            android:required="false" />
+207-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\deb40e6ea3773bcf263ddc7b7e11a4bd\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+208
+209        <activity
+209-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\e6d606128e8845b09e1336355e300014\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+210            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+210-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\e6d606128e8845b09e1336355e300014\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+211            android:exported="false"
+211-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\e6d606128e8845b09e1336355e300014\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+212            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+212-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\e6d606128e8845b09e1336355e300014\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+213
+214        <provider
+214-->[com.google.firebase:firebase-common:19.3.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\e08597cadbcdded6717e2adb68c5e913\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+215            android:name="com.google.firebase.provider.FirebaseInitProvider"
+215-->[com.google.firebase:firebase-common:19.3.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\e08597cadbcdded6717e2adb68c5e913\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+216            android:authorities="android.example.com.tflitecamerademo.firebaseinitprovider"
+216-->[com.google.firebase:firebase-common:19.3.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\e08597cadbcdded6717e2adb68c5e913\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+217            android:exported="false"
+217-->[com.google.firebase:firebase-common:19.3.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\e08597cadbcdded6717e2adb68c5e913\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+218            android:initOrder="100" />
+218-->[com.google.firebase:firebase-common:19.3.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\e08597cadbcdded6717e2adb68c5e913\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+219
+220        <meta-data
+220-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\3b273c9b4894db4499409266c7854c10\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+221            android:name="com.google.android.gms.version"
+221-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\3b273c9b4894db4499409266c7854c10\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+222            android:value="@integer/google_play_services_version" />
+222-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\3b273c9b4894db4499409266c7854c10\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+223
+224        <provider
+224-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\b3510efe19c75aa6f0f1db2de31abece\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+225            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+225-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\b3510efe19c75aa6f0f1db2de31abece\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+226            android:authorities="android.example.com.tflitecamerademo.lifecycle-process"
+226-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\b3510efe19c75aa6f0f1db2de31abece\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+227            android:exported="false"
+227-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\b3510efe19c75aa6f0f1db2de31abece\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+228            android:multiprocess="true" />
+228-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\b3510efe19c75aa6f0f1db2de31abece\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+229    </application>
+230
+231</manifest>

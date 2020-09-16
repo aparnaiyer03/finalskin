@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "494981861345",
+    "firebase_url": "https://tele-f13e2.firebaseio.com",
+    "project_id": "tele-f13e2",
+    "storage_bucket": "tele-f13e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494981861345:android:155f1c4133f24c5bfe0ca0",
+        "android_client_info": {
+          "package_name": "android.example.com.tflitecamerademo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494981861345-nhhf8uuqbkmuv6b52o5p5fqah50c1sj0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtoIQEkdjMNzJElMFGmce9of5S2X-VZTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494981861345-nhhf8uuqbkmuv6b52o5p5fqah50c1sj0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

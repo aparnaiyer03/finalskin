@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">494981861345-nhhf8uuqbkmuv6b52o5p5fqah50c1sj0.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://tele-f13e2.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">494981861345</string>
+    <string name="google_api_key" translatable="false">AIzaSyCtoIQEkdjMNzJElMFGmce9of5S2X-VZTg</string>
+    <string name="google_app_id" translatable="false">1:494981861345:android:155f1c4133f24c5bfe0ca0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCtoIQEkdjMNzJElMFGmce9of5S2X-VZTg</string>
+    <string name="google_storage_bucket" translatable="false">tele-f13e2.appspot.com</string>
+    <string name="project_id" translatable="false">tele-f13e2</string>
+</resources>
